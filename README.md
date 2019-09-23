@@ -7,7 +7,7 @@ Antud kursuse raames omandatakse baasteadmisest programmeerimisest PHP keele alu
    * [phpStorm](https://www.jetbrains.com/phpstorm/download/#section=windows) O KETTAL ÕPETAJA KAUSTAS ANNA JAOKS PHP2019
    * [git](https://git-scm.com/download/win)
     
-   ###Seadistamine
+### Seadistamine
    * Valmista litsents
    * PhpStorm General Settings (line numbers, soft wrap)
    * git.exe ühendus PHPStormiga
