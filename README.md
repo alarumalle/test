@@ -35,6 +35,14 @@ Lükka muudatused koos kirjeldusetega kaugreprosse
 ```
 git push -uf origin master
 ```
-### Abiks
+* giti kasutamine PHPStorm keskkonnas
+```
+VCS (menüü) -> commit (Ctrl + K)
+```
+* Vali failid mille sisu on vaja committida
+* Määra vastav kirjeldus
+* ja vajuta commit käsk (Commit and Push)
+
+## Abiks
 * Git kursus codecademys
 * [README.md failide süntaks](help.github.com/en/articles/basic-writing-and-formatting-syntax)
