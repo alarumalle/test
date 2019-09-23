@@ -43,6 +43,8 @@ VCS (menüü) -> commit (Ctrl + K)
 * Määra vastav kirjeldus
 * ja vajuta commit käsk (Commit and Push)
 
+* Print ja echo käskude abil trükkimine
+
 ## Abiks
 * Git kursus codecademys
 * [README.md failide süntaks](help.github.com/en/articles/basic-writing-and-formatting-syntax)

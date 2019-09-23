@@ -7,5 +7,5 @@ print "See on kolmas php rida<br>";
 /*
  * See on mitmerealine kommentaar
  */
-
+//echo abil printimine
 echo 'See on tekst, mis on kirjutatud echo abil';
