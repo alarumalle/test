@@ -16,7 +16,7 @@ Antud kursuse raames omandatakse baasteadmisest programmeerimisest PHP keele alu
    * Version Control Settings (git, github)
    * Php githubi repro kloneerimine
 
-  ### 23.09.2019
+ ### 23.09.2019
   * git kasutamine käsurealt
   
 Lokaalse git repro initisaliseerimine
@@ -35,3 +35,6 @@ Lükka muudatused koos kirjeldusetega kaugreprosse
 ```
 git push -uf origin master
 ```
+### Abiks
+* Git kursus codecademys
+* [README.md failide süntaks](help.github.com/en/articles/basic-writing-and-formatting-syntax)
