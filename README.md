@@ -45,6 +45,15 @@ VCS (menüü) -> commit (Ctrl + K)
 
 * Print ja echo käskude abil trükkimine
 
+### 27.09.2019
+
+* Kordamine: get meetodiga vorm
+* [php dokumentatsioon - funktsioonid jms](php.net)
+* Ümardamine, pi funktsioonid
+* Paremklikk funktsioonil dokumendi sees - Go to - Declarations and Usage ja sealt näen funkts. struktuuri ja antakse ka php.net link, kust näen dokumentatsiooni
+
 ## Abiks
 * Git kursus codecademys
 * [README.md failide süntaks](help.github.com/en/articles/basic-writing-and-formatting-syntax)
+
+
