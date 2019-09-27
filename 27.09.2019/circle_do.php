@@ -9,11 +9,16 @@ $circleRadius = $_GET['circle-radius'];
 
 //arvutused
 
-$circleArea = 3.14 * $circleRadius * $circleRadius;
-$circleCircumference = 3.14 * 2 * $circleRadius;
+$circleArea = round(pi() * $circleRadius * $circleRadius, 3);
+$circleCircumference = pi() * 2 * $circleRadius;
+//ümardamine ja omistamine
+//$circleAreaRounded = round($circleArea, 3);
+
+//ümardamine ja ümber kirjutamine
+$circleArea = round($circleArea, 3);
 // print
 
 echo 'Raadius: ' . $circleRadius . '<br>';
 echo '<hr>';
 echo 'Ringi pindala = ' . $circleArea . '<br>';
-echo 'Ringi ümbermõõt = ' . $circleCircumference . '<br>';
+echo 'Ringi ümbermõõt = ' . round($circleCircumference, 3) . '<br>';
