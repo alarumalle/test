@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Aritmeetika</title>
     <style>
         table, th, td {
             border: 1px solid #333;
@@ -21,13 +21,13 @@
             background: orange;
         }
 
+        tr:nth-child(even) {
+            background: #f4f4f4;
+        }
+
     </style>
 </head>
 <body>
-
-</body>
-</html>
-
 <?php
 
 $x = 8;
@@ -38,7 +38,6 @@ $dif = $x - $y;
 $product = $x * $y;
 $quotient = $x / $y;
 $residual = $x % $y;
-
 
 echo '
     <table>
@@ -84,3 +83,7 @@ echo '
         </tbody>
     </table>
  ';
+?>
+</body>
+</html>
+
