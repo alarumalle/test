@@ -7,3 +7,5 @@ if ($number < 0) {
     $abs = $number;
 }
 echo $number . ' absoluutväärtus on ' . $abs;
+
+
