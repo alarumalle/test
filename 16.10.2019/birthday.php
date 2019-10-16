@@ -12,4 +12,5 @@ if (strlen($birthYear) > 0) {
 }
 
 //http://alarumalle.ikt.khk.ee/PA/16.10.2019/birthday.php?birthYear=2000
-// aadressiriba lõppu ? siis birthYear= ja siis mingi synniaasta
+// aadressiriba lõppu ? siis birthYear= ja siis mingi synniaasta (kui on rohkem asju sisestada siis & ja kohe uus
+//nimetus=väärtus
