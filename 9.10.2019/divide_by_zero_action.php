@@ -3,15 +3,31 @@
 
 $numberOne = (int)$_GET['numberOne'];
 $numberTwo = (int)$_GET['numberTwo'];
+var_dump($numberOne);
+var_dump($numberTwo);
+
 
 if (strlen($numberOne) > 0 or strlen($numberTwo) > 0)
-    if ($numberTwo == 0) {
-        echo 'Ei tohi jagada nulliga';
+    if ($numberTwo != 0) {
+        echo $numberOne . '/' . $numberTwo . ' = ' . $numberOne / $numberTwo;
     } else {
-        echo $numberOne / $numberTwo;
+        echo 'nulliga jagamine keelatud';
     } else {
     echo 'sisesta väärtused';
 }
+
+
+if (strLen($numberOne) > 0 and strlen($numberTwo) > 0) {
+    if ($numberOne > $numberTwo) {
+        echo 'suurem';
+    } elseif ($numberOne < $numberTwo) {
+        echo 'väiksem';
+    } else {
+        echo 'võrdne';
+    }
+}
+
+
 //
 //if(strlen($numberOne) > 0 or strlen($numberTwo) > 0)
 //    if ($numberTwo == 0){
@@ -25,9 +41,3 @@ if (strlen($numberOne) > 0 or strlen($numberTwo) > 0)
 ?>
 
 
-//if (strlen($numberOne) > 0 and !empty($_GET[numberOne])) {
-//    if (strlen($numberTwo) > 0 and !empty($_GET[numberTwo]))
-//        echo 'andmed olemas';
-//} else {
-//    echo 'Tuleb sisestada molemad numbrid';
-//}
