@@ -7,4 +7,13 @@ while ($number <= 5) {
 }
 
 
-//do while ei jõudnud..
+echo '<hr>';
+
+$number = 1;
+do {
+  echo $number;
+  echo '<br>';
+  $number++;
+} while($number <= 5);
+
+//molemad koodid tekitavad numbrid 1..5 
