@@ -1,8 +1,8 @@
-#9.10.2019 Päeva kokkuvõte
+# 9.10.2019 Päeva kokkuvõte
 
-##Põhilised aritmeetilised operaatorid:
+## Põhilised aritmeetilised operaatorid:
 
-*liitmine
+* liitmine
 
 ```
 <?php
@@ -12,7 +12,7 @@ $summa = $x + $y;
 ?>
 ```
 
-*lahutamine
+* lahutamine
 ```
 <?php
 $x = 2;
@@ -21,7 +21,7 @@ $vahe = $x - $y;
 ?>
 ```
 
-*korrutamine
+* korrutamine
 ```
 <?php
 $x = 2;
@@ -30,7 +30,7 @@ $korrutis = $x * $y;
 ?>
 ```
 
-*jagamine
+* jagamine
 ```
 <?php
 $x = 2;
@@ -39,7 +39,7 @@ $jagatis = $x / $y;
 ?>
 ```
 
-##Suurendamine ja vähendamine 1 võrra
+## Suurendamine ja vähendamine 1 võrra
 ```
 <?php
 $x = 2;
@@ -55,7 +55,7 @@ echo $x;
 ?>
 ```
 
-##Suurendamine ja vähendamine 2 võrra
+## Suurendamine ja vähendamine 2 võrra
 ```
 <?php
 $x = 2;
@@ -87,7 +87,7 @@ $x /= 2; // $x = $x / 2;
 echo $x;
 ?>
 ```
-*j@@gi leidmine
+* j@@gi leidmine
 ```
 <?php
 $x = 2;
@@ -96,14 +96,14 @@ echo $x;
 ?>
 ```
 
-##Vormindatud v@ljundid
-*printf
+## Vormindatud v@ljundid
+* printf
 ```
 <?php
 printf('formaadisõne koos lisatekstiga', $muutuja1, $muutuja2, ..., $muutujaN);
 ?>
 ```
-*formaadid
+* formaadid
 ```
 %s    - string sõne
 %d    - decimal täisarv
@@ -112,13 +112,13 @@ printf('formaadisõne koos lisatekstiga', $muutuja1, $muutuja2, ..., $muutujaN);
 %3.2f - komaarv
 ```
 
-*html tabeli tegemine
+* html tabeli tegemine
 
-*php, html, css ühes failis
+* php, html, css ühes failis
 
-###Kodus
+### Kodus
 
-*[Metshein.com](https://www.metshein.com/course/php-alused/) - PHP – Matemaatilised tehted - Ülesanne 2 ->
+* [Metshein.com](https://www.metshein.com/course/php-alused/) - PHP – Matemaatilised tehted - Ülesanne 2 ->
 
-*Koosta kood, mis teisendab Celsius-kraadid Fahrenheiti. Kasuta valemit: F=(9/5)*C+32. Vastus vormindatakse 2 kohta pärast koma.
+* Koosta kood, mis teisendab Celsius-kraadid Fahrenheiti. Kasuta valemit: F=(9/5)*C+32. Vastus vormindatakse 2 kohta pärast koma.
 
