@@ -22,6 +22,12 @@
 ### Loogilised tehted, näited
 [var_dump](https://www.php.net/manual/en/function.var-dump.php)
 
+### Numbers challenge
+* mäng mille mängija peab arvama ära õige numbri
+* GET meetod
+* if else lausete kombineerimine
+* loogilised operaatorid
+
 ### Inimese eluperioodi kontroll
 * if ja else lausete kasutus
 * loogilised tehted ```< > <= >= != ==```
