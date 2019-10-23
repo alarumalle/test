@@ -3,11 +3,11 @@
 $birthYear = $_GET['birthYear'];
 
 if (strlen($birthYear) > 0) {
-    $age = 2019 - $birthYear;
+    $age = date('Y') - $birthYear;
     if (($age % 5) == 0) {
         echo 'Sul on juubel, oled ' . $age . ' aastat vana';
     } else {
-        echo 'Sul on tavasünnipäev, sa oled' . $age . ' aastat vana';
+        echo 'Sul on tavasünnipäev, sa oled ' . $age . ' aastat vana';
     }
 }
 
