@@ -1,4 +1,4 @@
-#Päeva teemad
+# 23.09.2019 Päeva kokkuvote
 
 ## Väljund
 ```
@@ -19,15 +19,62 @@ $muutujaNimi = "väärtus";
 ```
 
 ```
+Muutuja nimed on:
+* nimi on loogiline
+* kasuta täisnimi
+* kasuta camelStyle
+
+```
+- Muutuja kasutamine
+
+```
 <?php
 echo "Mingi text".$muutujaNimi." ja veel mingi tekst";
 ?>
 ```
 
 ## Andmetüübid
-```sõne, number (täisarv, reaalarv e komaga arv)```
+```
+Sõned (string) - jutumärkide või ülakomade vahel olev väärtus
+<?php
+$eesNimi = "SinuEesnimi";
+?>
+```
 
-## Kasutaja sisend
+```
+Täisarvud
+<?php
+$numberYks = 6;
+$numberKaks = -8;
+?>
+```
+
+```
+Komaga arvud, ehk reaalarvud
+<?php
+$pikkus = 1.78;
+?>
+```
+## Operaatorid
 
 ```. on ühendamisoperaator```
+
 ```= omistamisoperaator```
+
+## Kasutaja sisend
+Ühes failis pane kokku HTML vorm ja teises on vormi töötlev action fail:
+```
+<?php
+// input.php
+<form action="input_do.php method="get">
+    <input type="text" name="inputNimi">
+</form>
+?>
+ 
+ 
+<?php
+// input_do.php
+$vormiAndmed = $_GET['inputNimi'];
+echo $vormiAndmed;
+?>
+```
