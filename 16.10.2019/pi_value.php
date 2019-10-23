@@ -1,10 +1,8 @@
 <?php
 
-//EI TÖÖTA
 //niikaua kui count on väiksem või võrdne maksimumist seni me teeme tehet
 
-
-$maxValue = 1000:
+$maxValue = 100000000;
 $count = 1;
 $sum = 0;
 
