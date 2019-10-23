@@ -1,12 +1,19 @@
 <?php
-//if(!empty($_GET[‘name’])){
 
-$numberOne = (int)$_GET['numberOne'];
-$numberTwo = (int)$_GET['numberTwo'];
-var_dump($numberOne);
-var_dump($numberTwo);
+$numberOne = $_GET['numberOne'];
+$numberTwo = $_GET['numberTwo'];
+if(strlen($numberOne) > 0 and strlen($numberTwo) > 0){
+  if($numberTwo != 0) {
+    echo $numberOne.' / '.$numberTwo.' = '.round($numberOne / $numberTwo, 3);
+  } else {
+    echo 'Nulliga jagamine keelatud';
+  }
+} else {
+  echo 'Sisesta kõik väärtused';
+}
 
 
+/*
 if (strlen($numberOne) > 0 or strlen($numberTwo) > 0)
     if ($numberTwo != 0) {
         echo $numberOne . '/' . $numberTwo . ' = ' . $numberOne / $numberTwo;
@@ -15,8 +22,9 @@ if (strlen($numberOne) > 0 or strlen($numberTwo) > 0)
     } else {
     echo 'sisesta väärtused';
 }
+*/
 
-
+/*
 if (strLen($numberOne) > 0 and strlen($numberTwo) > 0) {
     if ($numberOne > $numberTwo) {
         echo 'suurem';
@@ -26,6 +34,7 @@ if (strLen($numberOne) > 0 and strlen($numberTwo) > 0) {
         echo 'võrdne';
     }
 }
+*/
 
 
 //
